@@ -62,6 +62,14 @@
       "video": "https://www.youtube.com/watch?v=6HfnkwkZ0Ss",
       "videoUrl": "https://www.youtube.com/watch?v=6HfnkwkZ0Ss",
       "description": "Lorem ipsum dolor sit amet. Aut molestiae culpa qui quos doloremque sit dolores blanditiis! In autem inventore ut perspiciatis quam et error natus. Et perferendis quasi qui autem quisquam vel tenetur fugiat. Qui voluptatem eveniet sed eaque sequi qui mollitia perferendis."
+    },
+    {
+      "id": "0b64",
+      "title": "ChatGPT: Técnicas para o Prompt Perfeito",
+      "category": "inovacao",
+      "image": "https://i3.ytimg.com/vi/NsXfldreSPQ/maxresdefault.jpg",
+      "video": "https://www.youtube.com/embed/NsXfldreSPQ?si=pPD2PZ4L6P5wYHms",
+      "description": "Explore os segredos da Engenharia de Prompt na WebSérie ChatGPT e IAs Generativas da Alura! Mergulhe em Técnicas de Prompt Engineering e conheça exemplos práticos de Prompts. Descubra se a Profissão de Prompt Engineering é o hype do momento e obtenha valiosas dicas para aprimorar suas habilidades. Desvende a Fórmula do Prompt Perfeito e amplie seu conhecimento sobre essa fascinante área da Inteligência Artificial!\n"
     }
   ]
 }
