@@ -1,0 +1,142 @@
+.header {
+  width: 1433px;
+  height: 125px;
+  position: relative;
+  border-bottom: 4px solid transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #262626;
+  color: white;
+  padding: 50px;
+  margin: 0 auto;    
+}
+
+.header h1 {
+  font-size: 24px;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.header nav ul li {
+  margin-left: 20px;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.header img {
+  max-width: 168px;
+  max-height: 40px;
+  vertical-align: middle;
+  user-select: none;
+  pointer-events: none;
+  -webkit-user-drag: none;
+}
+
+@media (max-width: 1200px) {
+  .header {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .header h1 {
+    font-size: 20px;
+  }
+
+  .header nav ul li {
+    margin-left: 15px;
+  }
+
+  .header img {
+    max-width: 140px;
+    max-height: 35px;
+  }
+}
+
+@media (max-width: 900px) {
+  .header {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .header h1 {
+    font-size: 18px;
+  }
+
+  .header nav ul li {
+    margin-left: 10px;
+  }
+
+  .header img {
+    max-width: 120px;
+    max-height: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    border-top: 4px solid #6BD1FF;
+    border-bottom: none;
+    background-color: #030910;
+    justify-content: space-evenly;
+  }
+
+  .header nav ul {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .header nav ul li {
+    margin-left: 0;
+    margin-top: 0;
+    flex: 1;
+    display: flex;
+    justify-content: center; 
+    margin: 0 10px;
+  }
+
+  .header nav ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header nav ul li a.home {
+    background-image: url('../../images/home_mobile.png');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px; 
+  }
+
+  .header nav ul li a.add-video {
+    background-image: url('../../images/add_video_mobile.png');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px;
+  }
+
+  .header img {
+    display: none;
+  }
+}

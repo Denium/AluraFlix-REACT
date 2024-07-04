@@ -1,0 +1,189 @@
+.novo-video-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  width: 974px;
+  height: 900px;
+  background: transparent;
+  padding: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+}
+
+h2 {
+  width: 575px;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+label {
+  width: 573px;
+  color: #FFFFFF;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  position: relative;
+}
+
+.error {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  font-size: 12px;
+  color: #ffa600;
+}
+
+input, textarea, select {
+  width: 573px;
+  height: 62px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid #FFFFFF;
+  outline: none;
+  margin-top: 10px;
+  color: #FFFFFF;
+  background: transparent;
+}
+
+input::placeholder, textarea::placeholder, select::placeholder {
+  color: lightgray;
+}
+
+select option {
+  color: lightgray;
+}
+
+textarea {
+  height: auto;
+}
+
+.button-new-video {
+  width: 180.13px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+  opacity: 1;
+  color: #ffffff;
+}
+
+.button-new-video:hover {
+  background-color: rgba(0, 0, 0, 0.898);
+  color: #FFFFFF;
+  border: 2px solid #2271D1;
+  border-radius: 10px;
+  box-shadow: 0px 0px 12px 4px #2271D1 inset;
+  opacity: 1;
+}
+
+.form-instruction {
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 0 40px;
+}
+
+.success-message {
+  color: green;
+  font-family: 'Roboto', sans-serif;
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .main {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  h2 {
+    width: 100%;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  label {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  input, textarea, select {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .modal-buttons {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  button {
+    width: 100%;
+    margin: 0;
+  }
+
+  .button-new-video {
+    width: 50%;
+    height: 48px;
+    justify-content: center; 
+    padding: 10px 20px;
+    text-indent: 0;
+  }
+
+  .button-new-video .icon {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    margin-right: 10px;
+  }
+
+  .button-new-video .text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #2271D0;
+  }
+}
